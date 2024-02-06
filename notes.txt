@@ -1,0 +1,5 @@
+RVM and Bundler are not communicating well, probably due to me using homebrew to run the latest version of Ruby in this project.
+Some command line tools we need to check:
+echo GEM_PATH=$GEM_PATH
+echo PATH=$PATH
+
