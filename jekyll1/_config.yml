@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/sew_me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a **person** looking for a job."
   location         : "Austin"
-  email            : "mailto:alexandra.k.scott@gmail.com"
+  email            : #my email is already below
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/alexfrommars"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
