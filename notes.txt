@@ -2,9 +2,10 @@ RVM and Bundler are not communicating well, probably due to me using homebrew to
 Some command line tools we need to check:
 echo GEM_PATH=$GEM_PATH
 echo PATH=$PATH
-
+May need to configure shell for rbenv: echo 'eval "$(~/.rbenv/bin/rbenv init - zsh)"' >> ~/.zshrc
 Okay got that, now remember the steps to launch the site for testing:
-make sure Bundler is updated, and then in the terminal: 'bundle exec jekyll serve', followed by:  'bundle exec jekyll build'
+make sure Bundler is updated, gem install bundler
+and then in the terminal: 'bundle exec jekyll serve', followed by:  'bundle exec jekyll build'
 
 When using Bundler to manage gems you’ll want to run Jekyll using bundle exec jekyll serve and bundle exec jekyll build.
 
@@ -44,3 +45,8 @@ To modify or add your own scripts include them in assets/js/_main.js and then re
 
 If you add additional scripts to assets/js/plugins/ and would like them concatenated with the others, be sure to update the uglify script in package.json.
 Same goes for scripts that you remove
+
+Configuration notes: 
+to create a page, create a mardown file with the page name, add a.yaml file to _data. make sure to add any neccessary YAML front matter
+You need both the md and the yaml. You can also work with the index.html to change the main frontpage,
+ consider writing a new page layout adn add it to _layouts
