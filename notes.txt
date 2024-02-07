@@ -50,3 +50,6 @@ Configuration notes:
 to create a page, create a mardown file with the page name, add a.yaml file to _data. make sure to add any neccessary YAML front matter
 You need both the md and the yaml. You can also work with the index.html to change the main frontpage,
  consider writing a new page layout adn add it to _layouts
+
+ for heroku integration need to build the node js stuff and set the port to: const port = process.env.PORT || 3000;
+ in the package json add “scripts”: { “start”: “node app.js” }

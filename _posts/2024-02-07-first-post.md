@@ -1,10 +1,10 @@
 ---
 layout: posts
-title:  "Welcome to Jekyll!"
+title:  "Test Post"
 ---
 
 # Welcome
 
 **Hello world**, this is my first Jekyll blog post.
 
-I hope you like it!
+Test confirms that posts are working.
