@@ -18,11 +18,11 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Henlo"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Alexandra S." # site tagline that appears below site title in masthead
 name                     : "Alexandra"
 description              : "Better Out Than In."
 url                      : "https://alexfrommars.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/newSite/" # the subpath of your site, e.g. "/blog"
 repository               : "alexfrommars/newSite" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -104,15 +104,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Alexandra S."
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a **person**."
+  name             : "Alexandra Scott"
+  avatar           : "/assets/images/sew_me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am a **person** looking for a job."
   location         : "Austin"
-  email            :
+  email            : "mailto:alexandra.k.scott@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:alexandra.k.scott@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
