@@ -2,6 +2,7 @@ RVM and Bundler are not communicating well, probably due to me using homebrew to
 Some command line tools we need to check:
 echo GEM_PATH=$GEM_PATH
 echo PATH=$PATH
+
 May need to configure shell for rbenv: echo 'eval "$(~/.rbenv/bin/rbenv init - zsh)"' >> ~/.zshrc
 Okay got that, now remember the steps to launch the site for testing:
 make sure Bundler is updated, gem install bundler
