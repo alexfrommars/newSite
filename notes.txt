@@ -4,4 +4,4 @@ echo GEM_PATH=$GEM_PATH
 echo PATH=$PATH
 
 Okay got that, now remember the steps to launch the site for testing:
-make sure Bundler is updated, and then in the terminal: bundle exec jekyll serve
+make sure Bundler is updated, and then in the terminal: 'bundle exec jekyll serve', followed by:  'bundle exec jekyll build'
